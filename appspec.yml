@@ -8,5 +8,5 @@ hooks:
     - location: \download-agent.ps1
       timeout: 300
   AfterInstall:
-    - location: \test-marly.ps1
+    - location: \update-agent.bat
       timeout: 300
