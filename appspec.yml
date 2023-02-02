@@ -5,5 +5,5 @@ files:
     destination: C:\Users\Administrator\downloads
 hooks:
   AfterInstall:
-    - location: C:\Users\Administrator\downloads\test-marly.ps1
+    - location: \test-marly.ps1
       timeout: 300
