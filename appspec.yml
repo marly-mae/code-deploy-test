@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: /test-marly.ps1
+  - source: ./test-marly.ps1
     destination: C:\Administrator\downloads
 hooks:
   AfterInstall:
