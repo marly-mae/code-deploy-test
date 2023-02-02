@@ -4,6 +4,9 @@ files:
   - source: ./test-marly.ps1
     destination: C:\Users\Administrator\downloads
 hooks:
+  BeforeInstall:
+    - location: \download-agent.ps1
+      timeout: 300
   AfterInstall:
     - location: \test-marly.ps1
       timeout: 300
