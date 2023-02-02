@@ -2,8 +2,8 @@ version: 0.0
 os: windows
 files:
   - source: ./test-marly.ps1
-    destination: C:\Administrator\downloads
+    destination: C:\Users\Administrator\downloads
 hooks:
   AfterInstall:
-    - location: C:\Administrator\downloads\test-marly.ps1
+    - location: C:\Users\Administrator\downloads\test-marly.ps1
       timeout: 300
